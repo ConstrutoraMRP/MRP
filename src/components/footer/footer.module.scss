@@ -1,0 +1,48 @@
+.container {
+  overflow: hidden;
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0 1.5rem;
+
+  // padding: 1rem 16rem;
+  @media screen and (min-width: 968px) {
+    padding: 0 4rem;
+    // width: 30%;
+  }
+
+  @media screen and (max-width: 768px) {
+    // padding: 0 2rem;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 0 16rem;
+  }
+}
+
+.social {
+  font-size: 25px;
+  color: #52cca3;
+  display: flex;
+  
+  div {
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+      color: #fcbd5a;
+    }
+  }
+}
+
+.logo {
+  margin-top: 3px;
+  width: 50px;
+  cursor: pointer;
+}

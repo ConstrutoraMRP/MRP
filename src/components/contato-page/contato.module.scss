@@ -1,0 +1,207 @@
+.bg {
+  height: 100vh;
+  
+  // background: rgba(233, 233, 233, 0.555);
+  // background: #52cca31f;
+  background-image: url("../../assets/background9.jpg");
+  // background-image: url("../../assets/final-background.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+  // height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  // height: 100vh;
+  padding: 0 1.5rem; //mobile
+  // // background: rgba(233, 233, 233, 0.555);
+  // // background: #52cca31f;
+  // // background-image: url("../../assets/background3.png");
+  // background-image: url("../../assets/final-background.jpg");
+  // background-repeat: no-repeat;
+
+  // overflow: hidden;
+  // // height: 100%;
+  // width: 100%;
+  // position: fixed;
+
+  // background-attachment: fixed;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // position: relative;
+
+  padding-top: 2rem;
+
+  h2 {
+    // margin-bottom: 2rem;
+    margin: 2rem 0;
+    color: #fcbd5a;
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    .emailHeader {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+
+      @media screen and (min-width: 768px) {
+        flex-direction: row;
+      }
+      
+      
+
+      input {
+        // width: 48%;
+        width: 100%;
+        padding: 15px 15px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+        outline-color: #fcbd5a;
+
+        @media screen and (min-width: 768px) {
+          width: 48%;
+        }
+      }
+    }
+    .emailText {
+      width: 100%;
+
+      textarea {
+        width: 100%;
+        height: 250px;
+        resize: none;
+        outline-color: #fcbd5a;
+        border-radius: 5px;
+        border: none;
+        padding: 10px 15px;
+      }
+      margin-bottom: 30px;
+    }
+
+    button {
+      width: 50%;
+      border: none;
+      font-weight: bold;
+      background: #52cca3;
+      // background: rgba(201, 201, 201, 0.26);
+      border-radius: 5px;
+      padding: 10px;
+      cursor: pointer;
+      margin-top: 16px;
+      color: white;
+      transition: 0.3s;
+
+      &:hover {
+        // background: darken(#52cca3, 10%);
+        background: #fcbd5a;
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    // font-size: 1.3rem;
+    padding: 2rem 2rem;
+    // width: 40%;
+    // padding: 0;
+  }
+
+  @media screen and (min-width: 968px) {
+    // font-size: 1.3rem;
+    padding: 2rem 4rem;
+    // width: 50%;
+  }
+
+  @media screen and (min-width: 1240px) {
+    // font-size: 1.3rem;
+    padding: 2rem 4rem;
+    // width: 40%;
+  }
+
+  @media screen and (min-width: 1440px) {
+    // font-size: 1.3rem;
+    padding: 2rem 16rem;
+    // width: 30%;
+  }
+
+  @media screen and (max-width: 768px) {
+    // width: 60%;
+  }
+
+  @media screen and (max-width: 480px) {
+    // width: 80%;
+  }
+}
+
+.content {
+  // background: black;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.cards {
+  display: grid;
+  column-gap: 4rem;
+  row-gap: 4rem;
+
+  // grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Screen larger than 900px? 3 columns */
+  @media screen and (min-width: 900px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.cardContent {
+  color: rgb(68, 68, 68);
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 130px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+
+  background: #fcbd5a;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+  &:hover {
+    // box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(5, 5, 5, 0.247);
+  }
+}
+
+.cardImage {
+  width: 100%;
+  height: 150px;
+  position: relative;
+}
