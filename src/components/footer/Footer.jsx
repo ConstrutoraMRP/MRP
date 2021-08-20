@@ -10,26 +10,32 @@ import logo from '../../assets/logo.png'
 export function Footer() {
   return (
     <div className={styles.container}>
-      <div className={styles.logo}>
-        <Link href="/">
-          <Image src={logo} />
-        </Link>
-      </div>
-      <div className={styles.social}>
-        <div>
-          <Link href="https://api.whatsapp.com/send?phone=554198243992" target="_blank">
-            <FaWhatsapp />
-          </Link>
+
+      <div className={styles.content}>
+        <div className={styles.localization}>
+          Rua Rio Juruá 360, Bairro Alto, <br />Curitiba – Paraná - CEP 82.840-390 <br/> Fone: 41-3045-8791
         </div>
-        <div>
-          <Link href="https://www.instagram.com/construtoramrp/" target="_blank">
-            <FaInstagram />
+        {/* <div className={styles.logo}>
+          <Link href="/">
+            <Image src={logo} />
           </Link>
-        </div>
-        <div>
-          <Link href="https://www.facebook.com/daripaiano">
-            <FaFacebook />
-          </Link>
+        </div> */}
+        <div className={styles.social}>
+          <div>
+            <Link href="https://api.whatsapp.com/send?phone=554198243992" target="_blank">
+              <FaWhatsapp />
+            </Link>
+          </div>
+          <div>
+            <Link href="https://www.instagram.com/construtoramrp/" target="_blank">
+              <FaInstagram />
+            </Link>
+          </div>
+          <div>
+            <Link href="https://www.facebook.com/daripaiano">
+              <FaFacebook />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

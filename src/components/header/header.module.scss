@@ -109,7 +109,7 @@
   flex-direction: column;
   height: 100vh;
   // background: rgba(146, 146, 146, 0.603);
-  background: rgba(0, 0, 0, 0.6);
+  background: rgb(56, 56, 56);
   // background: #52cca3;
 
   span {
@@ -126,7 +126,8 @@
   color: #52cca3;
   // color: white;
 
-  border-bottom: 1px solid #FCBD5A;
+  // border-bottom: 1px solid #FCBD5A;
+  border-bottom: 1px solid #ffffff;
 
   span:last-child {
     border: none;

@@ -16,11 +16,11 @@ export function Main() {
           <h2>Mais de 13 anos transformando sonhos em realidade através da construção civíl.</h2>
         </div>
         <div className={styles.btn}>
-          <button>
-            <Link href="#about">
+          <Link href="#about">
+            <button>
               <span><a>Saiba mais</a></span>
-            </Link>
-          </button>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

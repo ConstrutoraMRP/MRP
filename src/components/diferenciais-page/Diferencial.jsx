@@ -6,13 +6,13 @@ import { GoVerified } from "react-icons/go";
 
 export function Diferencial() {
   return (
-    <div className={styles.container} id="about">
+    <main className={styles.container} id="about">
       <div className={styles.title}>
         <div>
           <h2>Sobre nós</h2>
         </div>
-        <span>Fundada em 2003, gerenciada por Daricles Paiano com vasta vivência na área da Construção Civil, onde recebeu o legado de seu Pai que o ensinou e forjou a carreira de construtor, e sua Esposa, Fabiana Paiano que deixou sua profissão de Gerente comercial, onde atuou por mais de 18 anos no grupo Boticário para agregar valor na visão comercial e na satisfação singular dos clientes. <br /><br />
-
+        <span>
+          Fundada em 2003, gerenciada por Daricles Paiano com vasta vivência na área da Construção Civil, onde recebeu o legado de seu Pai que o ensinou e forjou a carreira de construtor, e sua Esposa, Fabiana Paiano que deixou sua profissão de Gerente comercial, onde atuou por mais de 18 anos no grupo Boticário para agregar valor na visão comercial e na satisfação singular dos clientes. <br /><br />
 
           Contamos com a expertise de mercado do profissional Luiz Augusto, que integra o time de planejamento, com mais de 13 anos de experiência em gerenciamento de matérias de construção civil, seu foco esta em cotações e orçamentos para oferecer o melhor preço e qualidade. <br /><br />
 
@@ -43,6 +43,6 @@ export function Diferencial() {
           <p>Compromisso em atender nossos clientes com respeito e responsabilidade, seja a obra pequena, média ou de grande porte.</p>
         </div>
       </div>
-    </div>
+    </main>
   )
 }

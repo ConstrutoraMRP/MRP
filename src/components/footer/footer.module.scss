@@ -1,14 +1,15 @@
 .container {
   overflow: hidden;
-  height: 70px;
+  height: 100px;
   width: 100%;
   position: absolute;
   bottom: 0;
 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   background: rgba(0, 0, 0, 0.6);
+  // background: rgba(255, 255, 255, 0.6);
   padding: 0 1.5rem;
 
   // padding: 1rem 16rem;
@@ -27,7 +28,7 @@
 }
 
 .social {
-  font-size: 25px;
+  font-size: 35px;
   color: #52cca3;
   display: flex;
   
@@ -39,6 +40,25 @@
       color: #fcbd5a;
     }
   }
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.localization { 
+  // background-image: url("../../assets/logo.png");
+  // // background-image: url("../../assets/background6.png");
+  // background-repeat: no-repeat;
+
+  // // background-attachment: fixed;
+  // background-position: center;
+  // // background-repeat: no-repeat;
+  // // background-size: cover;
+  font-size: 14px;
+  color: white;
 }
 
 .logo {
