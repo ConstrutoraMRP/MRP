@@ -1,6 +1,6 @@
 .container {
   overflow: hidden;
-  height: 100px;
+  height: 110px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -12,14 +12,11 @@
   // background: rgba(255, 255, 255, 0.6);
   padding: 0 1.5rem;
 
-  // padding: 1rem 16rem;
   @media screen and (min-width: 968px) {
     padding: 0 4rem;
-    // width: 30%;
   }
 
   @media screen and (max-width: 768px) {
-    // padding: 0 2rem;
   }
 
   @media screen and (min-width: 1440px) {
@@ -31,7 +28,7 @@
   font-size: 35px;
   color: #52cca3;
   display: flex;
-  
+
   div {
     margin-left: 15px;
     cursor: pointer;
@@ -45,24 +42,28 @@
 .content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
-.localization { 
-  // background-image: url("../../assets/logo.png");
-  // // background-image: url("../../assets/background6.png");
-  // background-repeat: no-repeat;
-
-  // // background-attachment: fixed;
-  // background-position: center;
-  // // background-repeat: no-repeat;
-  // // background-size: cover;
-  font-size: 14px;
-  color: white;
+.localization {
+  font-size: 10px;
+  color: rgb(211, 211, 211);
 }
 
-.logo {
-  margin-top: 3px;
-  width: 50px;
-  cursor: pointer;
+.locale {
+  .ico {
+    display: flex;
+    padding-bottom: 5px;
+    color: #52cca3;
+    font-size: 25px;
+    padding-right: 10px;
+
+    .localeContent {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      padding-left: 10px;
+      color: rgb(211, 211, 211);
+    }
+  }
 }

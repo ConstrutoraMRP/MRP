@@ -12,7 +12,7 @@ export function Header() {
     <header className={styles.navbar}>
       <div className={styles.logo}>
         <Link href="/">
-          <Image src={logo} />
+          <a><Image src={logo} /></a>
         </Link>
       </div>
       <nav>
@@ -23,17 +23,15 @@ export function Header() {
           <span><a>Serviços</a></span>
         </Link>
         <Link href="#portifolio">
-          <span><a>Portifólio</a></span>
+          <span><a>Clientes</a></span>
         </Link>
         <Link href="#contact">
           <span><a>Contato</a></span>
         </Link>
       </nav>
-
       <div className={styles.mobile_menu}>
         <SidebarMenu />
       </div>
-
     </header>
   )
 }

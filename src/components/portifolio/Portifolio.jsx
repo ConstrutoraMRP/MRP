@@ -11,7 +11,7 @@ export function Portifolio() {
   return (
     <>
       <div className={styles.container} id="portifolio">
-        <h2>Conheça alguns de nossos clientes!</h2>
+        <h2>Conheça alguns de nossos clientes</h2>
         {/* <span>Conheça alguns de nossos clientes!</span> */}
         {/* <span>Em nosso portfólio, contabiliza-se obras na Sanepar, Unicred, Angelloni, Pizzaria Dallagrana, Hotéis Slaviero, PUCPR, também como obras para o consumidor final.</span> */}
         <div className={styles.content}>

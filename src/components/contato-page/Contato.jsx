@@ -10,22 +10,23 @@ import { useState } from 'react';
 export function Contato() {
 
   const [hundleInput, setHundleInput] = useState(false);
+  const [hasFocus, setFocus] = useState(false);
 
   function hundleFocus() {
     setHundleInput(true)
+    console.log(hundleInput)
   }
 
   function sendEmail(e) {
     e.preventDefault();
 
-    // emailjs.sendForm('service_9q0k3sl', 'template_mrp', e.target, 'user_X77KG79uYjEEeH0DF4x5t')
     emailjs.sendForm('service_lvtddyn', 'template_mrp', e.target, 'user_pFHS264Nagf6Bvcftaynn')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
         console.log(error.text);
       });
-      toast.success('E-mail enviado com sucesso!');
+    toast.success('E-mail enviado com sucesso!');
 
     e.target.reset();
   }
@@ -37,21 +38,20 @@ export function Contato() {
         <div className={styles.content}>
           <form onSubmit={sendEmail}>
             <div className={styles.emailHeader}>
-              <input type="email" placeholder="Endereço de e-mail" name="email" required />
-              <input type="text" placeholder="Assunto do e-mail" name="subject" required />
+              <input type="email" placeholder="Endereço de e-mail" name="email" required onFocus={() => setFocus(true)}
+                onBlur={() => setFocus(false)} />
+              <input type="text" placeholder="Assunto do e-mail" name="subject" required onFocus={() => setFocus(true)}
+                onBlur={() => setFocus(false)} />
             </div>
             <div className={styles.emailText}>
-              {/* <input type="text" placeholder="Texto" required /> */}
-              <textarea placeholder="Digite aqui sua mensagem." name="message" onClick={hundleFocus}/>
+              <textarea placeholder="Digite aqui sua mensagem." required onFocus={() => setFocus(true)}
+                onBlur={() => setFocus(false)} />
             </div>
             <button type="submit" > Enviar</button>
           </form>
         </div>
       </div>
-      <div>
-        {/* {
-          hundleInput ? <Footer /> : false
-        } */}
+      <div className={hasFocus ? styles.App__redText : styles.App__defaultText}>
         <Footer />
       </div>
     </div>
