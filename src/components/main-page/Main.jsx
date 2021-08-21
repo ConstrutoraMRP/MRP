@@ -13,7 +13,7 @@ export function Main() {
           <h2>Mais de 18 anos transformando sonhos em realidade através da construção civíl.</h2>
         </div>
         <div className={styles.btn}>
-          <Link href="#about">
+          <Link href="#sobre">
             <button>
               <span><a>Saiba mais</a></span>
             </button>
