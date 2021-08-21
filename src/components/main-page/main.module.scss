@@ -3,7 +3,6 @@
   height: 100vh;
 
   background-image: url("../../assets/background6.png");
-  // background-image: url("../../assets/background6.png");
   background-repeat: no-repeat;
 
   background-attachment: fixed;
@@ -23,9 +22,6 @@
 .content {
   width: 100%;
   height: 30%;
-  // background: white;
-  // background: rgba(0, 0, 0, 0.795);
-  // color: rgba(29, 29, 29, 0.76);
   color: rgb(0, 0, 0);
   position: relative;
   margin: 8rem 0rem;
@@ -48,7 +44,6 @@
     border: none;
     font-weight: bold;
     background: #52cca3;
-    // background: rgba(201, 201, 201, 0.26);
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
@@ -57,7 +52,6 @@
     transition: 0.2s;
 
     &:hover {
-      // background: darken(#52cca3, 10%);
       background: #FCBD5A;
     }
   }

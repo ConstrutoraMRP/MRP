@@ -22,8 +22,6 @@
   }
 
   background: rgba(0, 0, 0, 0.6);
-  // background: white;
-  // background: rgba(243, 243, 243, 0.87);
 
   ul {
     display: none;
@@ -52,9 +50,6 @@
 
         transition: 0.1s;
 
-        // &:hover {
-        //   color: white;
-        // }
       }
     }
 
@@ -71,7 +66,6 @@
 
   @media screen and (min-width: 968px) {
     padding: 0 4rem;
-    // width: 30%;
   }
 
   @media screen and (max-width: 768px) {
@@ -100,17 +94,13 @@
   cursor: pointer;
 }
 
-.teste {
-  // background: black;
+.sideBarMenu {
   width: 200px;
   display: flex;
   align-items: center;
-  // justify-content: center;
   flex-direction: column;
   height: 100vh;
-  // background: rgba(146, 146, 146, 0.603);
   background: rgb(56, 56, 56);
-  // background: #52cca3;
 
   span {
     font-weight: bold;

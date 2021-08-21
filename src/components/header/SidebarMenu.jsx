@@ -50,7 +50,7 @@ export function SidebarMenu() {
     //   [classes.fullList]: anchor === 'right' || anchor === 'bottom',
     // })}
     >
-      <List className={styles.teste}>
+      <List className={styles.sideBarMenu}>
         {/* <span>Menu</span> */}
         <ListItem button key={"Inbox"} >
           <ListItemText className={styles.listItem}>

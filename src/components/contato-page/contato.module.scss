@@ -79,7 +79,6 @@
       border: none;
       font-weight: bold;
       background: #52cca3;
-      // background: rgba(201, 201, 201, 0.26);
       border-radius: 5px;
       padding: 10px;
       cursor: pointer;
@@ -88,7 +87,6 @@
       transition: 0.3s;
 
       &:hover {
-        // background: darken(#52cca3, 10%);
         background: #fcbd5a;
       }
     }

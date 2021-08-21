@@ -14,7 +14,9 @@ export default function Home() {
       <Head>
         <title>Construtora MRP</title>
         <meta name="Construtora MRP" content="Construtora MRP" />
+        <meta />
         <link rel="icon" href="/favicon.ico" />
+        
       </Head>
       <Main />
       <Diferencial />
