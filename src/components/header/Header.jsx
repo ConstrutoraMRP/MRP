@@ -12,7 +12,7 @@ export function Header() {
     <header className={styles.navbar}>
       <div className={styles.logo}>
         <Link href="/">
-          <a><Image src={logo} /></a>
+          <a><Image src={logo} alt="Logo MRP" /></a>
         </Link>
       </div>
       <nav>

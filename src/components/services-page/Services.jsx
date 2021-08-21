@@ -32,7 +32,7 @@ export function Services() {
               <span>Pinturas Internas e Externas (Lisa, Textura, Projetada e Epóxi)</span>
             </div>
             <div className={styles.cardImage}>
-              <Image src={pintura} alt="Construção e reforma" objectFit="cover" layout="fill" />
+              <Image src={pintura} alt="Pinturas Internas e Externas (Lisa, Textura, Projetada e Epóxi)" objectFit="cover" layout="fill" />
             </div>
           </div>
           <div className={styles.cardContent}>
@@ -40,7 +40,7 @@ export function Services() {
               <span>Elétrica (Residencial e Predial)</span>
             </div>
             <div className={styles.cardImage}>
-              <Image src={eletrica} alt="Construção e reforma" objectFit="cover" layout="fill" />
+              <Image src={eletrica} alt="Elétrica (Residencial e Predial)" objectFit="cover" layout="fill" />
             </div>
           </div>
           <div className={styles.cardContent}>
@@ -48,7 +48,7 @@ export function Services() {
               <span>Hidráulicas (Água Fria, Quente e Esgoto)</span>
             </div>
             <div className={styles.cardImage}>
-              <Image src={hidraulica} alt="Construção e reforma" objectFit="cover" layout="fill" />
+              <Image src={hidraulica} alt="Hidráulicas (Água Fria, Quente e Esgoto)" objectFit="cover" layout="fill" />
             </div>
           </div>
           <div className={styles.cardContent}>
@@ -56,7 +56,7 @@ export function Services() {
               Telhados (Telha Barro, Ondulada, Concreto, Sanduiche e Canalete).
             </div>
             <div className={styles.cardImage}>
-              <Image src={telhado} alt="Construção e reforma" objectFit="cover" layout="fill" />
+              <Image src={telhado} alt="Telhados (Telha Barro, Ondulada, Concreto, Sanduiche e Canalete)." objectFit="cover" layout="fill" />
             </div>
           </div>
           <div className={styles.cardContent}>
@@ -64,7 +64,7 @@ export function Services() {
               Impermeabilizações Internas e Externas
             </div>
             <div className={styles.cardImage}>
-              <Image src={impermeabilizacao} alt="Construção e reforma" objectFit="cover" layout="fill" />
+              <Image src={impermeabilizacao} alt=" Impermeabilizações Internas e Externas" objectFit="cover" layout="fill" />
             </div>
           </div>
           <div className={styles.cardContent}>
@@ -72,7 +72,7 @@ export function Services() {
               Gesso e Drywall.
             </div>
             <div className={styles.cardImage}>
-              <Image src={gesso} alt="Construção e reforma" objectFit="cover" layout="fill" />
+              <Image src={gesso} alt="Gesso e Drywall." objectFit="cover" layout="fill" />
             </div>
           </div>
           <div className={styles.cardContent}>
@@ -80,7 +80,7 @@ export function Services() {
               Assentamento de Pisos e Revestimentos (Porcelanato/Cerâmica).
             </div>
             <div className={styles.cardImage}>
-              <Image src={porcelanato} alt="Construção e reforma" objectFit="cover" layout="fill" />
+              <Image src={porcelanato} alt="Assentamento de Pisos e Revestimentos (Porcelanato/Cerâmica)." objectFit="cover" layout="fill" />
             </div>
           </div>
           <div className={styles.cardContent}>
@@ -88,15 +88,15 @@ export function Services() {
               Pavimentação – Asfalto e Paver.
             </div>
             <div className={styles.cardImage}>
-              <Image src={asfalto} alt="Construção e reforma" objectFit="cover" layout="fill" />
+              <Image src={asfalto} alt="Pavimentação – Asfalto e Paver." objectFit="cover" layout="fill" />
             </div>
           </div>
           <div className={styles.cardContent}>
             <div className={styles.cardTitle}>
-              Limpeza
+              Limpeza e conservação de obras.
             </div>
             <div className={styles.cardImage}>
-              <Image src={limpeza} alt="Construção e reforma" objectFit="cover" layout="fill" />
+              <Image src={limpeza} alt="Limpeza e conservação de obras." objectFit="cover" layout="fill" />
             </div>
           </div>
         </div>
