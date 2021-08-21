@@ -16,16 +16,16 @@ export function Header() {
         </Link>
       </div>
       <nav>
-        <Link href="#about">
+        <Link href="#sobre">
           <span><a>Sobre nós</a></span>
         </Link>
-        <Link href="#services">
+        <Link href="#servicos">
           <span><a>Serviços</a></span>
         </Link>
-        <Link href="#portifolio">
+        <Link href="#clientes">
           <span><a>Clientes</a></span>
         </Link>
-        <Link href="#contact">
+        <Link href="#contato">
           <span><a>Contato</a></span>
         </Link>
       </nav>

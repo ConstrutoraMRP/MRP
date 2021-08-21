@@ -6,7 +6,7 @@ import { GoVerified } from "react-icons/go";
 
 export function Diferencial() {
   return (
-    <main className={styles.container} id="about">
+    <main className={styles.container} id="sobre">
       <div className={styles.title}>
         <div>
           <h2>Sobre nós</h2>

@@ -16,7 +16,7 @@ import limpeza from '../../assets/limpeza.png'
 export function Services() {
   return (
     <>
-      <div className={styles.container} id="services">
+      <div className={styles.container} id="servicos">
         <h2>Serviços</h2>
         <div className={styles.cards}>
           <div className={styles.cardContent}>

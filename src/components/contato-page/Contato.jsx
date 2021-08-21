@@ -33,7 +33,7 @@ export function Contato() {
   return (
     <div className={styles.bg}>
       <ToastContainer />
-      <div className={styles.container} id="contact">
+      <div className={styles.container} id="contato">
         <h2>Fale conosco</h2>
         <div className={styles.content}>
           <form onSubmit={sendEmail}>
@@ -51,9 +51,9 @@ export function Contato() {
           </form>
         </div>
       </div>
-      <div className={hasFocus ? styles.App__redText : styles.App__defaultText}>
-        <Footer />
-      </div>
+      {/* <div className={hasFocus ? styles.App__redText : styles.App__defaultText}> */}
+      <Footer />
+      {/* </div> */}
     </div>
   )
 }

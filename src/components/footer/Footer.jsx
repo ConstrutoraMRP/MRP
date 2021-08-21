@@ -19,11 +19,6 @@ export function Footer() {
           <span className={styles.ico}><BiPhone /> <span className={styles.localeContent}>41-3045-8791</span></span>
         </div>
         <div className={styles.social}>
-          {/* <div>
-            <Link href="https://api.whatsapp.com/send?phone=554198243992" target="_blank">
-              <FaWhatsapp />
-            </Link>
-          </div> */}
           <div>
             <Link href="https://www.instagram.com/construtoramrp/" target="_blank">
               <a><FaInstagram /></a>
