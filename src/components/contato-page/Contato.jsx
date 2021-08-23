@@ -20,7 +20,7 @@ export function Contato() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_lvtddyn', 'template_mrp', e.target, 'user_pFHS264Nagf6Bvcftaynn')
+    emailjs.sendForm('service_9q0k3sl', 'template_mrp', e.target, 'user_X77KG79uYjEEeH0DF4x5t')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
@@ -44,7 +44,7 @@ export function Contato() {
                 onBlur={() => setFocus(false)} />
             </div>
             <div className={styles.emailText}>
-              <textarea placeholder="Digite aqui sua mensagem." required onFocus={() => setFocus(true)}
+              <textarea placeholder="Digite aqui sua mensagem." name="message" required onFocus={() => setFocus(true)}
                 onBlur={() => setFocus(false)} />
             </div>
             <button type="submit" > Enviar</button>
