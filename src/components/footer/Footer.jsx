@@ -15,10 +15,12 @@ export function Footer() {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.locale}>
+        <p className={styles.ico}>Localização</p>
           <span className={styles.ico}><BiMap /> <span className={styles.localeContent}>Rua Rio Juruá 360, Bairro Alto,<br />Curitiba – Paraná<br /></span></span>
-          <span className={styles.ico}><BiPhone /> <span className={styles.localeContent}>41-3045-8791</span></span>
         </div>
-        <div className={styles.social}>
+        <div className={styles.locale}>
+          <p className={styles.ico}>Siga as nossas redes sociais</p>
+          <div className={styles.social}>
           <div>
             <Link href="https://www.instagram.com/construtoramrp/" target="_blank">
               <a><FaInstagram /></a>
@@ -30,6 +32,11 @@ export function Footer() {
             </Link>
           </div>
         </div>
+          {/* <span className={styles.ico}><BiPhone /> <span className={styles.localeContent}>41-3045-8791</span></span> */}
+        </div>
+      </div>
+      <div className={styles.copyright}> 
+        2021 © Todos os direitos reservados. <span style={{fontWeight: "bold"}}>Construtora MRP</span>
       </div>
     </div>
   )

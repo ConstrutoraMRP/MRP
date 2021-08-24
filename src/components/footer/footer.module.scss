@@ -1,41 +1,48 @@
 .container {
   overflow: hidden;
-  height: 110px;
+  height: 100%;
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  // position: absolute;
+  // bottom: 0;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.6);
+  // background: rgba(0, 0, 0, 0.6);
   // background: rgba(255, 255, 255, 0.6);
-  padding: 0 1.5rem;
+  padding: 2rem 1.5rem;
 
   @media screen and (min-width: 968px) {
-    padding: 0 4rem;
+    padding: 1rem 4rem;
   }
 
   @media screen and (max-width: 768px) {
   }
 
   @media screen and (min-width: 1440px) {
-    padding: 0 16rem;
+    padding: 1rem 16rem;
+    flex-direction: column;
   }
 }
 
 .social {
   font-size: 35px;
-  color: #52cca3;
+  color: #fcbd5a;
   display: flex;
   padding-bottom: 5px;
 
   div {
-    margin-left: 15px;
-    cursor: pointer;
+    margin-right: 15px;
     transition: 0.2s;
     &:hover {
       color: #fcbd5a;
+    }
+
+    a { 
+      transition: 0.2s;
+      &:hover {
+        color: #52cca3;
+      }
     }
   }
 }
@@ -43,28 +50,47 @@
 .content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  flex-direction: column;
 }
 
 .localization {
   font-size: 10px;
-  color: rgb(211, 211, 211);
+  color: rgb(0, 0, 0);
 }
 
 .locale {
   .ico {
     display: flex;
-    padding-bottom: 5px;
-    color: #52cca3;
-    font-size:25px;
+    // padding-bottom: 20px;
+    color: #fcbd5a;
+    font-size: 25px;
     padding-right: 10px;
+
+    span { 
+      padding-bottom: 15px;
+    }
 
     .localeContent {
       display: flex;
       align-items: center;
       font-size: 14px;
       padding-left: 10px;
-      color: rgb(211, 211, 211);
+      color: rgb(27, 27, 27);
     }
   }
+
+  p {
+    color: #52cca3 !important;
+    font-size: 20px !important;
+  }
+}
+
+.copyright {
+    
+  width: 100%;
+  height: 30px;
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #52cca3 !important;
+
 }

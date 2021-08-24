@@ -1,7 +1,6 @@
 
 import styles from './contato.module.scss'
 import emailjs from 'emailjs-com'
-import { Footer } from '../footer/Footer';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
@@ -52,7 +51,7 @@ export function Contato() {
         </div>
       </div>
       {/* <div className={hasFocus ? styles.App__redText : styles.App__defaultText}> */}
-      <Footer />
+  
       {/* </div> */}
     </div>
   )

@@ -7,7 +7,7 @@ export function WhatsappButton() {
     <div className={styles.container}>
       <div>
         <Link href="https://api.whatsapp.com/send?phone=554198243992" target="_blank">
-          <a><FaWhatsapp /></a>
+          <span><a><FaWhatsapp /></a></span>
         </Link>
       </div>
     </div>
