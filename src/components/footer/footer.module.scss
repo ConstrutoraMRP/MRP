@@ -27,7 +27,8 @@
 
 .social {
   font-size: 35px;
-  color: #fcbd5a;
+  color: #52cca3;
+  // color: #fcbd5a;
   display: flex;
   padding-bottom: 5px;
 
@@ -41,7 +42,7 @@
     a { 
       transition: 0.2s;
       &:hover {
-        color: #52cca3;
+        color: #fcbd5a;
       }
     }
   }
@@ -62,7 +63,7 @@
   .ico {
     display: flex;
     // padding-bottom: 20px;
-    color: #fcbd5a;
+    color: #52cca3;
     font-size: 25px;
     padding-right: 10px;
 

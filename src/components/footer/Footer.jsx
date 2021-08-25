@@ -15,7 +15,7 @@ export function Footer() {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.locale}>
-        <p className={styles.ico}>Localização</p>
+        <p className={styles.ico}>Endereço</p>
           <span className={styles.ico}><BiMap /> <span className={styles.localeContent}>Rua Rio Juruá 360, Bairro Alto,<br />Curitiba – Paraná<br /></span></span>
         </div>
         <div className={styles.locale}>
