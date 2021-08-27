@@ -54,23 +54,23 @@ export function SidebarMenu() {
         {/* <span>Menu</span> */}
         <ListItem button key={"Inbox"} >
           <ListItemText className={styles.listItem}>
-            <Link href="#about">
+            <Link href="#sobre">
               <span><a>Sobre nós</a></span>
             </Link>
           </ListItemText>
         </ListItem>
-        <ListItem button key={"teste"}>
+        <ListItem button key={"Inbox"}>
           {/* <ListItemIcon></ListItemIcon> */}
           <ListItemText className={styles.listItem}>
-          <Link href="#services">
+          <Link href="#servicos">
               <span><a>Serviços</a></span>
             </Link>
           </ListItemText>
         </ListItem>
-        <ListItem button key={"teste"}>
+        <ListItem button key={"Inbox"}>
           {/* <ListItemIcon></ListItemIcon> */}
           <ListItemText className={styles.listItem}>
-          <Link href="#portifolio">
+          <Link href="#clientes">
               <span><a>Portifólio</a></span>
             </Link>
           </ListItemText>
@@ -78,7 +78,7 @@ export function SidebarMenu() {
         <ListItem button key={"Inbox"}>
           {/* <ListItemIcon></ListItemIcon> */}
           <ListItemText className={styles.listItem}>
-          <Link href="#contact">
+          <Link href="#contato">
               <span><a>Contato</a></span>
             </Link>
           </ListItemText>
