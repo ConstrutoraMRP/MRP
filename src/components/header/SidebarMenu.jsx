@@ -71,7 +71,7 @@ export function SidebarMenu() {
           {/* <ListItemIcon></ListItemIcon> */}
           <ListItemText className={styles.listItem}>
           <Link href="#clientes">
-              <span><a>Portifólio</a></span>
+              <span><a>Clientes</a></span>
             </Link>
           </ListItemText>
         </ListItem>
